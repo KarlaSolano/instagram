@@ -2,6 +2,37 @@ body{
     height: 100%;
 }
 
+/*--------------wrapper__nav------------------*/
+.wrapper_nav{
+    position: sticky;
+    display: grid;
+    grid-template-columns:  30% 40% 30%;
+    grid-row: 77px;
+    padding: 16px 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.style_nav{
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.icon_instagram{
+    font-size: medium;
+}
+
+.wrapper_nav{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
 
 /*--------------wrapper__seccions------------------*/
 .wrapper__seccions{
@@ -38,7 +69,7 @@ body{
     color:#262626;
 }
 
-.style_link:visited{
+a, a:visited{
     color:#003569;
     text-decoration: none;
 }
