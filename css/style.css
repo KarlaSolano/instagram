@@ -1,4 +1,5 @@
 body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     height: 100%;
 }
 
@@ -6,7 +7,7 @@ body{
 .wrapper_nav{
     position: sticky;
     display: grid;
-    grid-template-columns:  30% 40% 30%;
+    grid-template-columns: 30% 40% 30%;
     grid-row: 77px;
     padding: 16px 10px;
     align-items: center;
@@ -22,17 +23,93 @@ body{
     border-bottom: 1px solid #dbdbdb;
 }
 
-.icon_instagram{
-    font-size: medium;
+.content_nav{
+    justify-self: end;
 }
 
-.wrapper_nav{
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
+.logo{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.instagram{
+    display:-webkit-box;
+}
+
+.barra{
+    background-color: #262626;
+    height: 28px;
+    margin: 0 16px;
+    width: 1px;
 }
 
 
+.search .input-search{
+    height: 28px;
+    padding-left: 45px;
+}
+
+.style-search{
+    justify-self: center;
+}
+
+.style-search .style_input{
+    font-family: "Segoe UI";
+    font-size: 16px;
+    color: #999;
+    cursor: text;
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+}
+
+
+.search .icon_search{
+    position: absolute;
+    top: 33%;
+    margin-left: 17px;
+    color:#999;
+}
+
+.style-search .style_icon{
+    text-align: center;
+}
+
+.button-entrar{
+    border: 1px solid transparent;
+    background-color: #3897f0;
+}
+
+.button-options{
+    margin-left: 15px;
+}
+
+.button-entrar{
+    font-family:"Segoe UI";
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    padding: 5px 9px;
+    border-radius: 4px;
+    font-size: 14px; 
+    margin-left: 15px;
+}
+
+.style-entrar{
+    border-radius: 4px;
+    color: #fff;
+}
+.registrar{
+    margin-left: 15px;
+}
+
+.c-registrar{  
+    font-size: 14px;
+    color: #3897f0;
+    font-weight: 600;
+    line-height: 28px;
+}
 
 /*--------------wrapper__seccions------------------*/
 .wrapper__seccions{
