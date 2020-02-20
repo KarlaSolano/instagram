@@ -109,6 +109,17 @@ body{
     font-weight: 600;
     line-height: 28px;
 }
+/*-------------------wrapper__carrucel*/
+.wrapper__carrel{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 88px;
+    max-width: 935px;
+    margin-bottom: 21px;
+    padding: 10px;
+} 
+
+
 
 /*--------------wrapper__seccions------------------*/
 .wrapper__seccions{
@@ -242,7 +253,6 @@ span{
 .boton-cerrar{
     border: 0;
     padding: 0;
-    display: flex;
     position: absolute;
     cursor: pointer;
     right: 4px;
