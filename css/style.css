@@ -110,8 +110,9 @@ body{
     line-height: 28px;
 }
 /*-------------------wrapper__carrucel*/
-.wrapper__carrel{
+.wrapper__carrusel{
     display: grid;
+    border: 1px solid salmon;
     grid-template-columns: 100%;
     grid-auto-rows: 88px;
     max-width: 935px;
@@ -119,8 +120,15 @@ body{
     padding: 10px;
 } 
 
+.content-carrusel{
+    position: relative;
+}
 
-
+.img-carrusel{
+        display: block;
+        width: 50%;
+        height: 50%;
+}
 /*--------------wrapper__seccions------------------*/
 .wrapper__seccions{
     display: grid;
