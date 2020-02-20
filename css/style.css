@@ -109,14 +109,16 @@ body{
     font-weight: 600;
     line-height: 28px;
 }
-/*-------------------wrapper__carrucel*/
+/*-------------------wrapper__carrucel----------*/
 .wrapper__carrusel{
     display: grid;
     border: 1px solid salmon;
     grid-template-columns: 100%;
+    align-content: center;
     grid-auto-rows: 88px;
     max-width: 935px;
     margin-bottom: 21px;
+    margin: 0 auto 0px;
     padding: 10px;
 } 
 
