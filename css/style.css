@@ -114,23 +114,21 @@ body{
     display: grid;
     border: 1px solid salmon;
     grid-template-columns: 100%;
-    line-height: 18px;
+    grid-auto-rows: 130px;
     align-content: center;
-    grid-auto-rows: 88px;
     max-width: 935px;
-    margin-bottom: 21px;
     margin: 0 auto 0px;
     padding: 10px;
 } 
 
 .wrapper__carrusel__img{
+    border: 2px solid lawngreen;
     position: relative;
     cursor: pointer;
     overflow: hidden;
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
-    width: 100%;
 }
 
 .content-img__carrusel{
