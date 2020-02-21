@@ -112,7 +112,6 @@ body{
 /*-------------------wrapper__carrusel----------*/
 .wrapper__carrusel{
     display: grid;
-    border: 1px solid salmon;
     grid-template-columns: 100%;
     grid-auto-rows: 130px;
     align-content: center;
