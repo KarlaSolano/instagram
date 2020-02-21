@@ -109,7 +109,7 @@ body{
     font-weight: 600;
     line-height: 28px;
 }
-/*-------------------wrapper__carrucel----------*/
+/*-------------------wrapper__carrusel----------*/
 .wrapper__carrusel{
     display: grid;
     border: 1px solid salmon;
@@ -127,7 +127,9 @@ body{
 }
 
 .wrapper__carrusel__img{
+    display: block;
     border: 2px solid lawngreen;
+    margin-left: 10px;
     position: relative;
     cursor: pointer;
     overflow: hidden;
@@ -136,12 +138,22 @@ body{
 }
 
 .img-carrusel{
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
     cursor: pointer;
-    width: 56px;
-    height: 56px;
+    width: 77px;
+    height: 77px;
 }
 .name-social{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+    padding-top: 15px;
     font-size: 12px;
+    width: 77px;
+    cursor: pointer;
 }
 
 .next{
