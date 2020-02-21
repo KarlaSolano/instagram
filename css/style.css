@@ -132,6 +132,7 @@ body{
     cursor: pointer;
     overflow: hidden;
     text-align: center;
+    width: 130px;
 }
 
 .img-carrusel{
