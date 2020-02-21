@@ -127,7 +127,6 @@ body{
 
 .wrapper__carrusel__img{
     display: block;
-    border: 2px solid lawngreen;
     margin-left: 10px;
     position: relative;
     cursor: pointer;
@@ -150,6 +149,7 @@ body{
     white-space: nowrap;
     font-weight: 600;
     padding-top: 15px;
+    padding-left: 20px;
     font-size: 12px;
     width: 77px;
     cursor: pointer;
