@@ -113,7 +113,8 @@ body{
 .wrapper__carrusel{
     display: grid;
     grid-template-columns: 100%;
-    grid-auto-rows: 130px;
+    display: -webkit-box;
+    grid-row: 130px;
     align-content: center;
     max-width: 935px;
     margin: 0 auto 0px;
@@ -126,7 +127,6 @@ body{
 }
 
 .wrapper__carrusel__img{
-    display: block;
     margin-left: 10px;
     position: relative;
     cursor: pointer;
@@ -136,7 +136,7 @@ body{
 }
 
 .img-carrusel{
-    position: relative;
+    display: block;
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
@@ -149,7 +149,6 @@ body{
     white-space: nowrap;
     font-weight: 600;
     padding-top: 15px;
-    padding-left: 20px;
     font-size: 12px;
     width: 77px;
     cursor: pointer;
