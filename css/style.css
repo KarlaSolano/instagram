@@ -121,23 +121,17 @@ body{
     padding: 10px;
 } 
 
+.style-carrusel{
+    transition-duration: 0s;
+    transform: translateX(0px);
+}
+
 .wrapper__carrusel__img{
     border: 2px solid lawngreen;
     position: relative;
     cursor: pointer;
     overflow: hidden;
     text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.content-img__carrusel{
-    padding-top: 5px;
-    margin-left: 5px;
-    margin: 0 5px;
-    align-items: center;
-    display: block;
-    width: 70px;
 }
 
 .img-carrusel{
@@ -148,6 +142,25 @@ body{
 .name-social{
     font-size: 12px;
 }
+
+.next{
+    right: 0;
+    background: 0 0;
+    border: 0;
+    justify-self: center;
+    outline: 0;
+    padding: 20px 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.siguiente{
+  font-size: 24px;
+  color:#999;
+}
+
 
 /*--------------wrapper__seccions------------------*/
 .wrapper__seccions{
