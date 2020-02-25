@@ -110,6 +110,18 @@ body{
     line-height: 28px;
 }
 
+.options__header{
+    display: flex;
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.name__options__header{
+    margin-left: 0;
+    font-size: 16px;
+    margin-right: 40px;
+}
 
 /*-------------------wrapper__header----------*/
 .wrapper__header{
@@ -121,7 +133,7 @@ body{
     margin: 0 auto 0px;
     padding: 10px;
     margin-bottom: 44px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .header__img{
@@ -135,10 +147,12 @@ body{
     align-self: center;
 }
 
+.header__sections{
+    margin-left: 20px;
+}
 .sections-title{
     display: flex;
     margin-bottom: 20px;
-
 }
 
 .title{
@@ -149,6 +163,15 @@ body{
     margin: -5px 0 -6px;
 }
 
+.c-title{
+    color: #262626;
+    font-weight: 600;
+}
+
+.c-enlace{
+    color: inherit;
+}
+
 .fa-certificate{
     margin-left: 7px;
     color:#3897f0;
@@ -156,17 +179,25 @@ body{
     flex-direction: row;
 }
 
+.enlace__header{
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a.title2{
+    font-weight: 600;
+}
 /*-------------------wrapper__carrusel----------*/
 .wrapper__carrusel{
     display: grid;
     grid-template-columns: 100%;
     display: -webkit-box;
     grid-row: 130px;
-    align-content: center;
-    overflow: hidden;
     max-width: 935px;
     margin: 0 auto 0px;
     padding: 10px;
+    width: 100%;
 } 
 
 .style-carrusel{
@@ -180,7 +211,8 @@ body{
     cursor: pointer;
     overflow: hidden;
     text-align: center;
-    width: 130px;
+    max-width: 130px;
+    width: 100%;
 }
 
 .img-carrusel{
@@ -247,6 +279,7 @@ body{
     max-width: 935px;
     margin: 0 auto 0px;
     padding: 10px;
+    width: 100%;
 }
 
 .bt-seccions{
