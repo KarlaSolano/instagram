@@ -2,6 +2,8 @@ body{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     overflow-x:hidden;
     height: 100%;
+    margin: 0;
+    background-color: #fafafa;
 }
 
 /*--------------wrapper__nav------------------*/
@@ -128,6 +130,7 @@ body{
     display: grid;
     grid-template-columns: 30% 70%;
     grid-row: 130px;
+    align-content: center;
     flex-direction: row;
     max-width: 935px;
     margin: 0 auto 0px;
@@ -135,6 +138,7 @@ body{
     margin-bottom: 44px;
     margin-top: 50px;
 }
+
 
 .header__img{
     justify-self: center;
@@ -161,6 +165,11 @@ body{
     font-size: 28px;
     line-height: 32px;
     margin: -5px 0 -6px;
+}
+
+.verificado{
+    height: 18px;
+    width: 18px;
 }
 
 .c-title{
@@ -282,6 +291,7 @@ a.title2{
     width: 100%;
 }
 
+
 .bt-seccions{
     letter-spacing: 1px;
     font-size: 12px;
@@ -375,6 +385,52 @@ span{
     font-size: 20px;
 }
 
+/*------------------SUGERENCIAS-----------*/
+.wrapper__sugerencias{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 202px;
+    grid-gap: 10px 15px;
+    max-width: 935px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    padding-bottom: 80px;
+    margin: 0 auto 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.conten-sugerencias{
+    position: absolute;
+    height: 10px;
+   
+}
+
+.title-sugerencias{    
+    margin-right: 300px;
+    color: #999;
+}
+
+.ver-sugerencias{
+    color: #3897f0;    
+    font-size: 14px;
+    font-weight: 600;  
+}
+
+.wrapper__sugerencias__img{
+    display: flex;
+    padding-left: 15px;
+    margin-left: 5px;
+    padding-right: 20px;
+    display: block;
+    line-height: 18px;
+    width: 156px;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+}
 
 /*------------------FOOTER-----------*/
 
