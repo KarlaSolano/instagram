@@ -175,10 +175,17 @@ body{
 .c-title{
     color: #262626;
     font-weight: 600;
+    font-size: 16px;
+    display: inline;
 }
 
 .c-enlace{
     color: inherit;
+    font-weight: 600;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .fa-certificate{
@@ -387,19 +394,27 @@ span{
 
 /*------------------SUGERENCIAS-----------*/
 .wrapper__sugerencias{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-auto-rows: 202px;
-    grid-gap: 10px 15px;
-    max-width: 935px;
+    grid-column: 1/4;
     background: #fff;
     border: 1px solid #dbdbdb;
     padding-bottom: 80px;
-    margin: 0 auto 0px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.p--sugerencias{
+    padding: 20px 0;
+}
+
+.sugerencias-ver{
+    color: #3897f0;    
+    font-size: 14px;
+    font-weight: 600;  
+}
+
+.title-sugerencias{    
+    margin-right: 300px;
+    color: #999;
 }
 
 
@@ -409,15 +424,8 @@ span{
    
 }
 
-.title-sugerencias{    
-    margin-right: 300px;
-    color: #999;
-}
-
-.ver-sugerencias{
-    color: #3897f0;    
-    font-size: 14px;
-    font-weight: 600;  
+.ver-todo{
+    
 }
 
 .wrapper__sugerencias__img{
