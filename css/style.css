@@ -338,6 +338,7 @@ a, a:visited{
     max-width: 935px;
     margin: 0 auto 0px;
     padding: 10px;
+    margin-bottom: 100px;
 }
 
 
@@ -397,9 +398,9 @@ span{
     grid-column: 1/4;
     background: #fff;
     border: 1px solid #dbdbdb;
-    padding-bottom: 80px;
+    padding: 20px 0;
     margin-top: 28px;
-    margin-bottom: 28px;
+    margin-bottom: 8px;
 }
 
 .p--sugerencias{
@@ -407,39 +408,123 @@ span{
 }
 
 .sugerencias-ver{
-    color: #3897f0;    
+    flex-direction: row;
+    margin: 0 24px 12px 24px;  
     font-size: 14px;
-    font-weight: 600;  
+    font-weight: 600; 
+    line-height: 18px; 
 }
 
-.title-sugerencias{    
+.title-sugerencias{   
+    color: #999; 
     margin-right: 300px;
-    color: #999;
-}
-
-
-.conten-sugerencias{
-    position: absolute;
-    height: 10px;
-   
-}
-
-.ver-todo{
+    flex: 1 0 auto;
+    margin-right: 12px;
+    display: block;
     
 }
 
-.wrapper__sugerencias__img{
-    display: flex;
-    padding-left: 15px;
-    margin-left: 5px;
-    padding-right: 20px;
+.ver-todo{
     display: block;
-    line-height: 18px;
-    width: 156px;
-    border: 1px solid #dbdbdb;
-    border-radius: 1px;
+    color: #3897f0;  
+    flex-grow: 0;
+    float: right;
+    font-size: 14px;
+    font-weight: 600;
 }
 
+.conten-sugerencias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0px;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 18px;
+}
+
+.content__img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.img-block{
+    display: flex;
+    flex-direction: column;
+    width: 161px;
+    display: block;
+    overflow: hidden;
+    margin-top: 0;
+    border-radius: 1px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    margin-left: 24px;
+}
+.block-sugerencia{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-content: center;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button-close{
+    align-self: flex-end;
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    padding: 1px;
+    position: absolute;  
+    z-index: 1;
+}
+
+.button-seguir__footer{
+    font-family:"Segoe UI";
+    align-items: center;
+    text-transform: inherit;
+    font-weight: 500;
+    margin-top: 5px;
+    padding: 5px 38px;
+    border-radius: 4px;
+    font-size: 14px;  
+}
+
+.content-img__sugerencias{
+    justify-self: center;
+}
+
+.name-sugerencia{
+    color: #999;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+    
+}
+
+.img-sugerencia{
+    display: block;
+    background-color: #fafafa;
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    cursor: pointer;
+    flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
+}
 /*------------------FOOTER-----------*/
 
 .wrapper__footer{
@@ -521,8 +606,7 @@ span{
     padding: 5px 38px;
     border-radius: 4px;
     font-size: 14px; 
-    margin-left: 70px;
-    
+    margin-left: 70px;   
 }
 
 .style-entrar__footer{
